@@ -12,15 +12,17 @@ export function HeroSection() {
   };
 
   return (
-    <section id="inicio" className="relative h-screen flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: `url(${images.hero})`,
-          backgroundAttachment: "fixed"
-        }}
+    <section
+      id="inicio"
+      className="relative flex min-h-screen min-h-[100svh] items-center justify-center overflow-hidden pt-24"
+    >
+      <img
+        src={images.hero}
+        alt=""
+        aria-hidden="true"
+        className="absolute inset-0 h-full w-full object-cover object-center"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/30 to-black/55 md:from-black/70 md:via-black/60 md:to-black/70" />
 
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <motion.div
