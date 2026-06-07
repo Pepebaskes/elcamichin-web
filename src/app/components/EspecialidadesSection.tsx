@@ -14,9 +14,9 @@ export function EspecialidadesSection() {
       color: "from-red-500 to-orange-500"
     },
     {
-      name: "En salsa verde",
+      name: "Entomatados",
       icon: Leaf,
-      description: "Sabor tradicional con toque fresco",
+      description: "Nuestra especialidad, lo que nos hace tan conocidos",
       color: "from-green-500 to-emerald-500"
     },
     {
@@ -55,7 +55,7 @@ export function EspecialidadesSection() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
               <div className="p-6 text-white">
-                <h3 className="text-2xl mb-2">Chacales en salsa verde</h3>
+                <h3 className="text-2xl mb-2">Chacales entomatados</h3>
                 <p className="text-sm">Nuestra especialidad de la casa</p>
               </div>
             </div>

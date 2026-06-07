@@ -3,10 +3,17 @@ import { Facebook, Instagram, MapPin, Phone } from "lucide-react";
 import { images } from "../config/images";
 
 export function Footer() {
-  // Reemplaza estos href con las direcciones oficiales de cada red social.
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Instagram, href: "#", label: "Instagram" }
+    {
+      icon: Facebook,
+      href: "https://www.facebook.com/share/1DwJx2QAvr/?mibextid=wwXIfr",
+      label: "Facebook",
+    },
+    {
+      icon: Instagram,
+      href: "https://www.instagram.com/elcamichinelgrullo?igsh=MWZ4cnl1cnFiMXBqdQ==",
+      label: "Instagram",
+    },
   ];
 
   return (

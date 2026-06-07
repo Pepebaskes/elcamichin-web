@@ -18,4 +18,11 @@ export const images = {
   molcajete: "/images/molcajete-mariscos.jpeg",
   clericot: "/images/clericot-durazno.jpeg",
   pencaVerde: "/images/penca-verde.jpeg",
+  musicaMariachi: "/images/musica-mariachi.jpeg",
+  musicaClientes: "/images/musica-clientes.jpeg",
+  musicaVivo: "/images/musica-vivo.jpeg",
+  clientesCelebracion: "/images/clientes-celebracion.jpeg",
+  clientesPlatillos: "/images/clientes-platillos.jpeg",
+  clientesEquipo: "/images/clientes-equipo.jpeg",
+  clientesBrindis: "/images/clientes-brindis.jpeg",
 } as const;

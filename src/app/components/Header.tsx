@@ -11,7 +11,7 @@ export function Header() {
   const backgroundColor = useTransform(
     scrollY,
     [0, 100],
-    ["rgba(255, 255, 255, 0.9)", "rgba(255, 255, 255, 0.97)"]
+    ["rgba(255, 255, 255, 0.78)", "rgba(255, 255, 255, 0.93)"]
   );
 
   useEffect(() => {

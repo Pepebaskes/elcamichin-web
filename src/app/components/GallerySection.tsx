@@ -7,16 +7,16 @@ export function GallerySection() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const galleryItems = [
-    { src: images.chacalesVerdes, name: "Chacales en salsa verde" },
-    { src: images.molcajete, name: "Molcajete de mariscos" },
+    { src: images.chacalesVerdes, name: "Chacales Entomatados" },
+    { src: images.molcajete, name: "Molcajete Mar y Tierra" },
     { src: images.chacalesDiabla, name: "Chacales a la diabla" },
-    { src: images.ostiones, name: "Ostiones gratinados" },
-    { src: images.tostadas, name: "Tostadas de mariscos" },
+    { src: images.ostiones, name: "Ostiones Rockefeller" },
+    { src: images.tostadas, name: "Tostadas de Marlin" },
     { src: images.chacalesFrescos, name: "Chacales frescos" },
-    { src: images.tacosCamaron, name: "Tacos de camarón" },
+    { src: images.tacosCamaron, name: "Chicharrón de pescado" },
     { src: images.molcajeteQueso, name: "Molcajete gratinado" },
-    { src: images.chacalesEspeciales, name: "Chacales especiales" },
-    { src: images.cocteles, name: "Cocteles de mariscos" },
+    
+    { src: images.cocteles, name: "Jugo de Chacal" },
     { src: images.fachada, name: "Nuestro restaurante" }
   ];
 
