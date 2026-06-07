@@ -1,0 +1,21 @@
+// Vite serves files from public at the site root, so these paths do not need imports.
+export const images = {
+  logo: "/images/logo-el-camichin.png",
+  heroLogo: "/images/logo-el-camichin-hero.png",
+  hero: "/images/chacales-salsa-verde.jpeg",
+  chacalesVerdes: "/images/chacales-salsa-verde.jpeg",
+  chacalesDiabla: "/images/chacales-a-la-diabla.jpeg",
+  tacosCamaron: "/images/tacos-camaron.jpeg",
+  chacalesEspeciales: "/images/chacales-especiales.jpeg",
+  fachada: "/images/fachada-restaurante.jpeg",
+  letrero: "/images/letrero-el-grullo.jpeg",
+  ostiones: "/images/ostiones-gratinados.jpeg",
+  michelada: "/images/michelada.jpeg",
+  chacalesFrescos: "/images/chacales-frescos.jpeg",
+  molcajeteQueso: "/images/molcajete-gratinado.jpeg",
+  cocteles: "/images/cocteles-mariscos.jpeg",
+  tostadas: "/images/tostadas-mariscos.jpeg",
+  molcajete: "/images/molcajete-mariscos.jpeg",
+  clericot: "/images/clericot-durazno.jpeg",
+  pencaVerde: "/images/penca-verde.jpeg",
+} as const;

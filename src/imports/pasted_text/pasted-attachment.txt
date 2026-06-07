@@ -1,0 +1,116 @@
+Diseña una landing page web elegante, moderna y responsiva para el restaurante “El Cami-Chin”, restaurante familiar de mariscos y productos del mar y río ubicado en El Grullo, Jalisco.
+
+Objetivo:
+Crear una página informativa de alto nivel, visualmente atractiva, moderna, dinámica y con carácter familiar. No debe parecer menú digital completo, sino una presentación premium del restaurante, su historia, especialidades, ubicación, ambiente y contacto.
+
+Identidad visual:
+Usar una estética marina elegante con tonos rojo intenso, azul profundo, blanco, arena, verde fresco y detalles dorados. El logo principal debe usarse sin deformarse ni alterar su forma. Incluir una animación visual sugerida de brillo suave sobre el logo, tipo “shine effect”, elegante y no exagerada. El logo editable está en el PDF adjunto, especialmente las primeras versiones y la versión roja de la página 5. :contentReference[oaicite:0]{index=0}
+
+Estilo:
+Moderno, limpio, con secciones amplias, fotografías grandes, tarjetas elegantes, bordes redondeados, sombras suaves, animaciones al hacer scroll, aparición progresiva de textos e imágenes, efecto parallax sutil y microinteracciones en botones. Debe sentirse como un restaurante importante, tradicional, familiar y actualizado.
+
+Estructura de la página:
+
+1. Header fijo:
+- Logo El Cami-Chin.
+- Navegación: Inicio, Historia, Especialidades, Galería, Ubicación, Contacto.
+- Botón destacado: “Llamar ahora”.
+- En móvil usar menú hamburguesa.
+
+2. Hero principal:
+- Imagen grande de platillo de mariscos o chacales como fondo.
+- Overlay oscuro elegante.
+- Título: “El Cami-Chin”
+- Subtítulo: “Productos del mar y río”
+- Slogan: “El que visita El Grullo y no visitó El Cami-Chin no conoció El Grullo”
+- Botones: “Ver especialidades” y “Cómo llegar”
+- Animación de entrada suave.
+
+3. Historia:
+- Usar foto de la fachada del restaurante.
+- Texto:
+“El Cami-Chin nace en el año 1988 en El Grullo, Jalisco, cuando el señor Jorge Castillo Gómez, mejor conocido como ‘El Chin’, comienza la venta de jugo de chacal en este mismo lugar donde se encuentra situado nuestro restaurante.
+
+Gracias al gusto que tenemos por servir y a la unión familiar, hemos ido creciendo durante ya 36 años, sirviendo platillos de carnes y mariscos con el sabor inigualable de la casa, siendo nuestro platillo estrella los chacales de río.
+
+Nuestro secreto es la calidad de nuestros productos, comprando siempre los insumos más frescos del mercado directamente de productores locales. Además, todos nuestros platillos son preparados al momento, cuidando siempre la receta de la casa para ofrecer la mejor experiencia al paladar de nuestros clientes.”
+- Diseño en dos columnas en escritorio y una columna en móvil.
+
+4. Especialidad de la casa:
+- Sección destacada para “Chacales de río”.
+- Usar fotos de chacales a la diabla, chacales verdes o chacales servidos con arroz.
+- Texto breve: “El sabor que hizo tradición desde 1988.”
+- Tarjetas de estilos: “A la diabla”, “En salsa verde”, “Zarandeados”, “Al natural”.
+- Botón: “Preguntar disponibilidad”.
+
+5. Bebidas y frescura:
+- Mostrar clericot de durazno, penca verde y micheladas como elementos visuales.
+- Diseño fresco, colorido y dinámico.
+- Texto: “Bebidas preparadas para acompañar el sabor del mar.”
+
+6. Galería:
+- Grid responsivo tipo masonry con fotos seleccionadas:
+  - Chacales.
+  - Ostiones.
+  - Platillos con camarón.
+  - Molcajete/mariscos.
+  - Fachada.
+  - Bebidas.
+- No saturar. Usar máximo 8 a 10 imágenes.
+- Al pasar el mouse, mostrar nombre del platillo.
+
+7. Frase de identidad:
+- Fondo elegante con textura marina.
+- Texto grande:
+“El que visita El Grullo y no visitó El Cami-Chin no conoció El Grullo”
+- Debe sentirse como frase icónica de la marca.
+
+8. Ubicación y contacto:
+- Dirección: Narciso Mendoza #182, El Grullo, Jalisco.
+- Teléfonos: (321) 287 3897 y (321) 100 7681.
+- Botones:
+  - “Llamar”
+  - “Enviar WhatsApp”
+  - “Abrir en Google Maps”
+- Incluir mapa embebido como placeholder.
+
+9. Footer:
+- Logo pequeño.
+- Texto: “Tradición y sabor desde 1988.”
+- Dirección y teléfonos.
+- Redes sociales como íconos placeholder.
+- Copyright.
+
+Buenas prácticas de maquetado:
+Crear componentes separados:
+- Header
+- HeroSection
+- HistoriaSection
+- EspecialidadesSection
+- BebidasSection
+- GallerySection
+- SloganSection
+- LocationContactSection
+- Footer
+- Button
+- Card
+- ImageOverlay
+- SectionTitle
+
+Responsive:
+- Desktop 1440px
+- Laptop 1200px
+- Tablet 768px
+- Mobile 390px
+- En móvil las imágenes deben acomodarse en una columna, textos centrados o con buena lectura, botones grandes y fáciles de tocar.
+
+Animaciones sugeridas:
+- Fade in al hacer scroll.
+- Slide up en tarjetas.
+- Brillo suave sobre logo.
+- Zoom muy sutil en imágenes al pasar el mouse.
+- Header con blur al bajar.
+- Botones con efecto hover elegante.
+
+Tono de marca:
+Familiar, fuerte, tradicional, orgulloso de El Grullo, moderno, fresco, confiable y con mucho sabor.
