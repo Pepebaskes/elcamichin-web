@@ -92,7 +92,7 @@ export function Header() {
             <Button
               variant="primary"
               size="md"
-              onClick={() => window.open("tel:3212873897", "_self")}
+              onClick={() => window.open("tel:3213873897", "_self")}
             >
               <Phone className="w-4 h-4" />
               Llamar ahora
@@ -129,7 +129,7 @@ export function Header() {
                 variant="primary"
                 size="lg"
                 className="w-full"
-                onClick={() => window.open("tel:3212873897", "_self")}
+                onClick={() => window.open("tel:3213873897", "_self")}
               >
                 <Phone className="w-5 h-5" />
                 Llamar ahora
