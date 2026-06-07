@@ -14,7 +14,8 @@ export function Button({
   className = "",
   ...props
 }: ButtonProps) {
-  const baseStyles = "rounded-full transition-all duration-300 inline-flex items-center justify-center gap-2";
+  const baseStyles =
+    "max-w-full rounded-full transition-all duration-300 inline-flex items-center justify-center gap-2 whitespace-normal text-center";
 
   const variants = {
     primary: "bg-gradient-to-r from-red-600 to-red-700 text-white hover:from-red-700 hover:to-red-800 shadow-lg hover:shadow-xl",

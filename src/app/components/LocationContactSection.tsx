@@ -28,8 +28,8 @@ export function LocationContactSection() {
           Encuéntranos
         </SectionTitle>
 
-        <div className="mt-14 grid items-stretch gap-8 lg:grid-cols-[0.85fr_1.15fr]">
-          <div className="grid gap-6">
+        <div className="mt-14 grid min-w-0 items-stretch gap-8 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)]">
+          <div className="grid min-w-0 gap-6">
             <motion.article
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -114,7 +114,7 @@ export function LocationContactSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.15 }}
-            className="min-h-[360px] overflow-hidden rounded-3xl bg-white shadow-xl sm:min-h-[440px] lg:min-h-0"
+            className="min-h-[360px] min-w-0 overflow-hidden rounded-3xl bg-white shadow-xl sm:min-h-[440px] lg:min-h-0"
           >
             <iframe
               title="Ubicación de El Cami-Chin en Google Maps"

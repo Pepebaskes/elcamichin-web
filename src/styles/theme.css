@@ -122,15 +122,35 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    box-sizing: border-box;
   }
 
   html {
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
+    max-width: 100%;
+    overflow-x: clip;
   }
 
   body {
     @apply bg-background text-foreground;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+    overscroll-behavior-x: none;
+  }
+
+  #root {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  img,
+  video,
+  iframe,
+  svg {
+    max-width: 100%;
   }
 
   /**

@@ -9,12 +9,13 @@ const whatsappUrl =
 export function MusicaEnVivoSection() {
   return (
     <section className="overflow-hidden bg-gray-950 py-20 text-white md:py-28">
-      <div className="container mx-auto grid items-center gap-12 px-4 lg:grid-cols-[0.85fr_1.15fr]">
+      <div className="container mx-auto grid min-w-0 items-center gap-12 px-4 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)]">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
+          className="min-w-0"
         >
           <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-red-600/15 px-4 py-2 text-sm font-semibold text-red-300">
             <Music2 className="h-4 w-4" />
@@ -59,7 +60,7 @@ export function MusicaEnVivoSection() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, delay: 0.15 }}
-          className="grid grid-cols-2 gap-3 sm:gap-4"
+          className="grid min-w-0 grid-cols-2 gap-3 sm:gap-4"
         >
           <div className="col-span-2 aspect-[16/8] overflow-hidden rounded-3xl">
             <img

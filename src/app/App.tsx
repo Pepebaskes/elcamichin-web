@@ -12,7 +12,7 @@ import { Footer } from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen w-full max-w-full overflow-x-clip">
       <Header />
       <main>
         <HeroSection />

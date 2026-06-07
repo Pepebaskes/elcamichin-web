@@ -16,8 +16,8 @@ export function HistoriaSection() {
           Nuestra Historia
         </SectionTitle>
 
-        <div className="mt-14 grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14">
-          <div className="space-y-6 text-left text-base leading-relaxed text-gray-700 sm:text-lg">
+        <div className="mt-14 grid min-w-0 items-center gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-14">
+          <div className="min-w-0 space-y-6 text-left text-base leading-relaxed text-gray-700 sm:text-lg">
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -68,7 +68,7 @@ export function HistoriaSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="w-full"
+            className="min-w-0 w-full"
           >
             <div className="aspect-[3/2] w-full overflow-hidden rounded-3xl shadow-xl">
               <img
@@ -93,10 +93,10 @@ export function HistoriaSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-12 flex w-full items-center gap-4 sm:gap-8"
+          className="mt-12 flex w-full min-w-0 items-center gap-3 sm:gap-8"
         >
           <span className="h-px flex-1 bg-red-200" aria-hidden="true" />
-          <p className="shrink-0 text-center text-2xl italic text-red-700 md:text-3xl">
+          <p className="min-w-0 text-center text-xl italic text-red-700 sm:shrink-0 sm:text-2xl md:text-3xl">
             Tradición desde 1988
           </p>
           <span className="h-px flex-1 bg-red-200" aria-hidden="true" />
