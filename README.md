@@ -1,21 +1,30 @@
+# El Cami "Chin"
 
-  # Crear animación con logo
+Sitio web del restaurante El Cami "Chin", construido con React y Vite.
 
-  This is a code bundle for Crear animación con logo. The original project is available at https://www.figma.com/design/UnTwd0hZaEDpWXkaA3QXgx/Crear-animaci%C3%B3n-con-logo.
+## Desarrollo local
 
-  ## Running the code
+1. Instala las dependencias con `npm install`.
+2. Inicia el servidor con `npm run dev`.
+3. Genera la version de produccion con `npm run build`.
 
-  Run `npm i` to install the dependencies.
+## Imagenes
 
-  Run `npm run dev` to start the development server.
+Los archivos visuales viven en `public/images`, al mismo nivel que `src`.
+Vite publica esa carpeta desde la raiz, por lo que una imagen guardada como
+`public/images/ejemplo.jpeg` se usa con la ruta `/images/ejemplo.jpeg`.
 
-  ## Imágenes del sitio
+Las rutas utilizadas por los componentes estan centralizadas en
+`src/app/config/images.ts`. Para reemplazar una foto, conserva el nombre del
+archivo o actualiza unicamente su entrada en ese catalogo.
 
-  Los archivos visuales viven en `public/images`, al mismo nivel que `src`.
-  Vite publica esa carpeta desde la raíz, por lo que una imagen guardada como
-  `public/images/ejemplo.jpeg` se usa con la ruta `/images/ejemplo.jpeg`.
+## Despliegue en Vercel
 
-  Las rutas utilizadas por los componentes están centralizadas en
-  `src/app/config/images.ts`. Para reemplazar una foto, conserva el nombre del
-  archivo o actualiza únicamente su entrada en ese catálogo.
-  
+1. Importa en Vercel el repositorio `Pepebaskes/elcamichin-web`.
+2. Usa el preset `Vite`.
+3. Deja `npm run build` como Build Command.
+4. Usa `dist` como Output Directory.
+5. Despliega el proyecto y agrega el dominio en `Settings > Domains`.
+6. Copia en GoDaddy exactamente los registros DNS indicados por Vercel.
+
+No elimines registros MX, SPF, DKIM o TXT si el dominio utiliza correo.
