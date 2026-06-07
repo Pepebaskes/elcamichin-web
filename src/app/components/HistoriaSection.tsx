@@ -40,7 +40,7 @@ export function HistoriaSection() {
             >
               Gracias al gusto que tenemos por servir y a la unión familiar,
               hemos ido creciendo durante ya{" "}
-              <span className="font-semibold text-red-600">36 años</span>,
+              <span className="font-semibold text-red-600">38 años</span>,
               sirviendo platillos de carnes y mariscos con el sabor inigualable
               de la casa, siendo nuestro platillo estrella los{" "}
               <span className="font-semibold">chacales de río</span>.
