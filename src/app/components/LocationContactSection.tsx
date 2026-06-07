@@ -67,7 +67,7 @@ export function LocationContactSection() {
                     Teléfonos
                   </dt>
                   <dd className="mt-1 text-lg">
-                    (321) 287 3897
+                    (321) 387 3897
                     <br />
                     (321) 100 7681
                   </dd>
@@ -140,7 +140,7 @@ export function LocationContactSection() {
             <Button
               variant="primary"
               size="lg"
-              onClick={() => window.open("tel:3212873897", "_self")}
+              onClick={() => window.open("tel:3213873897", "_self")}
             >
               <Phone className="h-5 w-5" />
               Llamar
