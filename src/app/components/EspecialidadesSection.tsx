@@ -15,14 +15,14 @@ export function EspecialidadesSection() {
     },
     {
       name: "Entomatados",
-      icon: Leaf,
+      icon: Star,
       description: "Nuestra especialidad, lo que nos hace tan conocidos",
       color: "from-green-500 to-emerald-500"
     },
 
     {
       name: "Al natural",
-      icon: Star,
+      icon: Leaf,
       description: "El sabor auténtico del chacal de río",
       color: "from-blue-500 to-cyan-500"
     }
