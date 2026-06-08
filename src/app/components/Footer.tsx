@@ -97,7 +97,7 @@ export function Footer() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="border-t border-gray-700 pt-8 text-center text-gray-400"
         >
-          <p>&copy; 2020 El Cami-Chin. Todos los derechos reservados.</p>
+          <p>&copy; 2020 El Cami-Chin. Todos los derechos reservados por Jorge Alberto Castillo Peña y Mirna Mirella Martín Del Campo.</p>
           <p className="mt-2 text-sm italic">
             "El que visita El Grullo y no visitó El Cami-Chin no conoció El Grullo"
           </p>
