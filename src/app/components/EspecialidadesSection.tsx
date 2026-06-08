@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Flame, Leaf, Fish, Star } from "lucide-react";
+import { Flame, Leaf, Star } from "lucide-react";
 import { SectionTitle } from "./SectionTitle";
 import { Card } from "./Card";
 import { Button } from "./Button";
@@ -19,12 +19,7 @@ export function EspecialidadesSection() {
       description: "Nuestra especialidad, lo que nos hace tan conocidos",
       color: "from-green-500 to-emerald-500"
     },
-    {
-      name: "Zarandeados",
-      icon: Fish,
-      description: "A la parrilla con especias de la casa",
-      color: "from-yellow-500 to-amber-500"
-    },
+
     {
       name: "Al natural",
       icon: Star,
@@ -82,7 +77,7 @@ export function EspecialidadesSection() {
           </motion.div>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="mx-auto mb-12 grid max-w-5xl grid-cols-1 gap-6 sm:grid-cols-3">
           {estilos.map((estilo, index) => {
             const Icon = estilo.icon;
             return (
