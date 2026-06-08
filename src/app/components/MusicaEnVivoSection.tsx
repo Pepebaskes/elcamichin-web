@@ -26,9 +26,10 @@ export function MusicaEnVivoSection() {
             Música en vivo para disfrutar la sobremesa
           </h2>
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-gray-300">
-            En fechas especiales, El Cami-Chin se llena de música y momentos
-            para compartir. Disfruta nuestros platillos mientras vives un
-            ambiente cercano, alegre y muy de nuestra tierra.
+            En fechas especiales, El Cami-Chin
+            <sup className="ml-0.5 text-[0.6em] font-semibold">®</sup> se llena
+            de música y momentos para compartir. Disfruta nuestros platillos
+            mientras vives un ambiente cercano, alegre y muy de nuestra tierra.
           </p>
 
           <div className="mt-7 grid gap-4 text-gray-200 sm:grid-cols-2">
@@ -65,21 +66,21 @@ export function MusicaEnVivoSection() {
           <div className="col-span-2 aspect-[16/8] overflow-hidden rounded-3xl">
             <img
               src={images.musicaMariachi}
-              alt="Mariachi tocando en vivo en El Cami-Chin"
+              alt="Mariachi tocando en vivo en El Cami-Chin®"
               className="h-full w-full object-cover object-center"
             />
           </div>
           <div className="aspect-[4/3] overflow-hidden rounded-2xl">
             <img
               src={images.musicaClientes}
-              alt="Cliente disfrutando la música en El Cami-Chin"
+              alt="Cliente disfrutando la música en El Cami-Chin®"
               className="h-full w-full object-cover object-center"
             />
           </div>
           <div className="aspect-[4/3] overflow-hidden rounded-2xl">
             <img
               src={images.musicaVivo}
-              alt="Músicos durante una presentación en El Cami-Chin"
+              alt="Músicos durante una presentación en El Cami-Chin®"
               className="h-full w-full object-cover object-center"
             />
           </div>

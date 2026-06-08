@@ -5,19 +5,19 @@ import { images } from "../config/images";
 const customerImages = [
   {
     src: images.clientesCelebracion,
-    alt: "Cliente celebrando una ocasión especial en El Cami-Chin",
+    alt: "Cliente celebrando una ocasión especial en El Cami-Chin®",
   },
   {
     src: images.clientesPlatillos,
-    alt: "Clientes disfrutando los platillos de El Cami-Chin",
+    alt: "Clientes disfrutando los platillos de El Cami-Chin®",
   },
   {
     src: images.clientesEquipo,
-    alt: "Clientes acompañados por el equipo de El Cami-Chin",
+    alt: "Clientes acompañados por el equipo de El Cami-Chin®",
   },
   {
     src: images.clientesBrindis,
-    alt: "Clientes compartiendo bebidas en El Cami-Chin",
+    alt: "Clientes compartiendo bebidas en El Cami-Chin®",
   },
 ];
 
@@ -42,7 +42,7 @@ export function ClientesSection() {
             Momentos que se quedan en la mesa
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-gray-600">
-            Familias, amigos y visitantes han hecho de El Cami-Chin un punto
+            Familias, amigos y visitantes han hecho de El Cami-Chin® un punto
             de encuentro para comer bien, celebrar y volver a compartir.
           </p>
         </motion.div>

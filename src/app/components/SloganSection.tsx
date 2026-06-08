@@ -30,7 +30,7 @@ export function SloganSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-3xl md:text-5xl lg:text-6xl text-gray-800 max-w-5xl mx-auto leading-tight italic mb-4"
           >
-            El que visita El Grullo y no visitó El Cami-Chin no conoció El Grullo
+            El que visita El Grullo y no visitó El Cami-Chin® no conoció El Grullo
           </motion.h2>
 
           <motion.div

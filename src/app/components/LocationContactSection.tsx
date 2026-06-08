@@ -12,7 +12,7 @@ import { SectionTitle } from "./SectionTitle";
 const mapsUrl =
   "https://www.google.com/maps/search/?api=1&query=Narciso+Mendoza+182+El+Grullo+Jalisco";
 const whatsappUrl =
-  "https://wa.me/523211007681?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20El%20Cami-Chin.";
+  "https://wa.me/523211007681?text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20El%20Cami-Chin%C2%AE.";
 
 export function LocationContactSection() {
   return (
@@ -117,7 +117,7 @@ export function LocationContactSection() {
             className="min-h-[360px] min-w-0 overflow-hidden rounded-3xl bg-white shadow-xl sm:min-h-[440px] lg:min-h-0"
           >
             <iframe
-              title="Ubicación de El Cami-Chin en Google Maps"
+              title="Ubicación de El Cami-Chin® en Google Maps"
               src="https://www.google.com/maps?q=Narciso+Mendoza+182,+El+Grullo,+Jalisco,+Mexico&z=17&output=embed"
               className="h-full min-h-[360px] w-full border-0 sm:min-h-[440px] lg:min-h-full"
               loading="lazy"

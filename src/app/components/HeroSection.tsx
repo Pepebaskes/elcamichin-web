@@ -30,14 +30,24 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <motion.img
-            src={images.heroLogo}
-            alt="El Cami-Chin, productos del mar y río"
-            className="w-[min(82vw,30rem)] max-h-[40vh] object-contain mx-auto mb-8 drop-shadow-[0_8px_20px_rgba(0,0,0,0.45)]"
+          <motion.div
+            className="relative mx-auto mb-8 w-[min(82vw,30rem)]"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-          />
+          >
+            <img
+              src={images.heroLogo}
+              alt="El Cami-Chin®, productos del mar y río"
+              className="max-h-[40vh] w-full object-contain drop-shadow-[0_8px_20px_rgba(0,0,0,0.45)]"
+            />
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute right-[3%] top-[4%] text-xl font-bold leading-none text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] sm:text-2xl md:text-3xl"
+            >
+              ®
+            </span>
+          </motion.div>
 
           <motion.p
             className="sr-only"
@@ -54,7 +64,7 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            "El que visita El Grullo y no visitó El Cami-Chin no conoció El Grullo"
+            "El que visita El Grullo y no visitó El Cami-Chin® no conoció El Grullo"
           </motion.p>
 
           <motion.div

@@ -24,7 +24,7 @@ export function HistoriaSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              El Cami-Chin nace en el año{" "}
+              El Cami-Chin® nace en el año{" "}
               <span className="font-semibold text-red-600">1988</span> en El
               Grullo, Jalisco, cuando el señor Jorge Castillo Gómez, mejor
               conocido como <span className="italic">“El Chin”</span>, comienza
@@ -73,7 +73,7 @@ export function HistoriaSection() {
             <div className="aspect-[3/2] w-full overflow-hidden rounded-3xl shadow-xl">
               <img
                 src={images.fachada}
-                alt="Fachada del restaurante El Cami-Chin en El Grullo, Jalisco"
+                alt="Fachada del restaurante El Cami-Chin® en El Grullo, Jalisco"
                 className="h-full w-full object-contain"
               />
             </div>

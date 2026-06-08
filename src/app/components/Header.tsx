@@ -52,11 +52,11 @@ export function Header() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
-            className="flex items-center shrink-0"
+            className="relative flex items-center shrink-0"
           >
             <motion.img
               src={images.logo}
-              alt="El Cami-Chin Logo"
+              alt="Logotipo de El Cami-Chin®"
               className="h-20 md:h-24 w-32 md:w-40 object-contain object-left cursor-pointer drop-shadow-[0_1px_3px_rgba(255,255,255,0.9)]"
               whileHover={{ scale: 1.05 }}
               animate={{
@@ -73,6 +73,12 @@ export function Header() {
               }}
               onClick={() => scrollToSection("#inicio")}
             />
+            <span
+              aria-hidden="true"
+              className="pointer-events-none absolute right-0 top-2 text-sm font-bold leading-none text-gray-900 drop-shadow-[0_1px_2px_rgba(255,255,255,0.95)] md:right-0 md:top-3 md:text-base"
+            >
+              ®
+            </span>
           </motion.div>
 
           <nav className="hidden lg:flex items-center gap-8">

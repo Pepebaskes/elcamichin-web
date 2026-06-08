@@ -27,11 +27,19 @@ export function Footer() {
             transition={{ duration: 0.6 }}
             className="text-center md:text-left"
           >
-            <img
-              src={images.heroLogo}
-              alt="El Cami-Chin Logo"
-              className="h-24 w-40 object-contain mx-auto md:mx-0 mb-4"
-            />
+            <div className="relative mx-auto mb-4 w-40 md:mx-0">
+              <img
+                src={images.heroLogo}
+                alt="Logotipo de El Cami-Chin®"
+                className="h-24 w-40 object-contain"
+              />
+              <span
+                aria-hidden="true"
+                className="pointer-events-none absolute right-0 top-1 text-base font-bold leading-none text-white"
+              >
+                ®
+              </span>
+            </div>
             <p className="text-xl text-red-400 italic mb-2">Tradición y sabor desde 1988</p>
             <p className="text-gray-400">El sabor auténtico de El Grullo, Jalisco</p>
           </motion.div>
@@ -97,9 +105,9 @@ export function Footer() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="border-t border-gray-700 pt-8 text-center text-gray-400"
         >
-          <p>&copy; 2020 El Cami-Chin. Todos los derechos reservados por Jorge Alberto Castillo Peña y Mirna Mirella Martín Del Campo.</p>
+          <p>&copy; 2020 El Cami-Chin®. Todos los derechos reservados por Jorge Alberto Castillo Peña y Mirna Mirella Martín Del Campo.</p>
           <p className="mt-2 text-sm italic">
-            "El que visita El Grullo y no visitó El Cami-Chin no conoció El Grullo"
+            "El que visita El Grullo y no visitó El Cami-Chin® no conoció El Grullo"
           </p>
         </motion.div>
       </div>

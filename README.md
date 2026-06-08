@@ -1,6 +1,6 @@
-# El Cami "Chin"
+# El Cami "Chin"®
 
-Sitio web del restaurante El Cami "Chin", construido con React y Vite.
+Sitio web del restaurante El Cami "Chin"®, construido con React y Vite.
 
 ## Desarrollo local
 
