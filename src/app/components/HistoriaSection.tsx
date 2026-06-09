@@ -70,13 +70,11 @@ export function HistoriaSection() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="min-w-0 w-full"
           >
-            <div className="aspect-[3/2] w-full overflow-hidden rounded-3xl shadow-xl">
-              <img
-                src={images.fachada}
-                alt="Fachada del restaurante El Cami-Chin® en El Grullo, Jalisco"
-                className="h-full w-full object-contain"
-              />
-            </div>
+            <img
+              src={images.fachada}
+              alt="Fachada del restaurante El Cami-Chin® en El Grullo, Jalisco"
+              className="h-auto w-full object-contain"
+            />
             <figcaption className="px-4 pt-5 text-center">
               <p className="text-xl font-semibold text-gray-800">
                 Nuestro restaurante
